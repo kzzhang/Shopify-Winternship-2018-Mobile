@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Zhang_Kevin_Shopify_Winternship_2018</string>
+    <string name="app_name">Shopify Data Parser</string>
+    <string name="search_by_user">Enter user to search for:</string>
+    <string name="search_by_item">Enter item to search for:</string>
+    <string name="submit">Submit</string>
+    <string name="error_no_input">Please enter some input into either field</string>
 </resources>
