@@ -2,6 +2,10 @@
     <string name="app_name">Shopify Data Parser</string>
     <string name="search_by_user">Enter user to search for:</string>
     <string name="search_by_item">Enter item to search for:</string>
+    <string name="display_result_user">Total spent by %s:</string>
+    <string name="display_result_item">Total %s(s) purchased:</string>
     <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="no_text">Did not specify any search criteria</string>
     <string name="error_no_input">Please enter some input into either field</string>
 </resources>

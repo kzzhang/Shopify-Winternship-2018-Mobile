@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_activity_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:descendantFocusability="beforeDescendants">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,6 +34,9 @@
                 android:layout_marginTop="@dimen/edit_text_padding"
                 android:padding="@dimen/edit_text_padding"
                 android:textSize="@dimen/default_text_size"
+                android:inputType="text"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
                 android:background="@drawable/edit_text_background"/>
         </LinearLayout>
 
@@ -53,6 +60,9 @@
                 android:layout_marginTop="@dimen/edit_text_padding"
                 android:padding="@dimen/edit_text_padding"
                 android:textSize="@dimen/default_text_size"
+                android:inputType="text"
+                android:maxLines="1"
+                android:imeOptions="actionDone"
                 android:background="@drawable/edit_text_background"/>
         </LinearLayout>
 
@@ -71,7 +81,6 @@
                 android:paddingEnd="@dimen/activity_large_padding"
                 android:text="@string/submit"/>
         </LinearLayout>
-
 
     </LinearLayout>
 
